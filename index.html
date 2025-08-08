@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Selamat Ulang Tahun SYIFAUNNISA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      overflow: hidden;
+      color: #ffffff;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .stars, .twinkling {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: block;
+    }
+
+    .stars {
+      background: url('https://i.imgur.com/XbQZ8P2.png') repeat;
+      z-index: 0;
+      animation: moveStars 200s linear infinite;
+    }
+
+    .twinkling {
+      background: url('https://i.imgur.com/3aX1bYz.png') repeat;
+      z-index: 1;
+      animation: moveTwinkling 200s linear infinite;
+    }
+
+    @keyframes moveStars {
+      from {background-position: 0 0;}
+      to {background-position: -10000px 5000px;}
+    }
+
+    @keyframes moveTwinkling {
+      from {background-position: 0 0;}
+      to {background-position: 10000px 5000px;}
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .headline {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.5em;
+      color: #f5e6e8;
+      margin-bottom: 10px;
+    }
+
+    .subheadline {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2em;
+      color: #eec0c6;
+      margin-bottom: 50px;
+    }
+
+    .message {
+      font-size: 1.1em;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.9em;
+      background: rgba(0,0,0,0.4);
+      padding: 30px;
+      border-radius: 20px;
+    }
+
+    .signature {
+      margin-top: 30px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="twinkling"></div>
+
+  <div class="content">
+    <div class="headline">Selamat Ulang Tahun</div>
+    <div class="subheadline">Untuk SYIFAUNNISA</div>
+
+    <div class="message">
+      Meski ucapan ini datang tak tepat waktu,  
+      ada harapan yang tetap ingin kusampaikan.
+
+      Semoga malam-malammu seindah langit berbintang ini,  
+      penuh ketenangan, impian, dan cahaya kecil yang menuntun arahmu.
+
+      Kita mungkin sudah tidak lagi beriringan,  
+      namun kenangan yang pernah ada tetap membekas.
+
+      Dari kejauhan, aku berharap kamu baik-baik saja,  
+      dan selalu dikelilingi oleh orang-orang yang mencintaimu dengan tulus.
+
+      <div class="signature">— Seseorang yang pernah hadir dalam ceritamu</div>
+    </div>
+  </div>
+</body>
+</html>
